@@ -11,11 +11,11 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""👋Hey! {m.from_user.mention(style='md')},
 
-💡 ** I am Stylish Font Bot**
+💡 ** I A Stylish Font Bot is SD Project** 🔥
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+`⚡⚡I can help you to get stylish fonts. Just send me some text and see magic📤.`
 
 **👲 Maintained By:** {owner.mention(style='md')}
 """
@@ -23,7 +23,7 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('👨‍💻My Father👨‍💻', url=f"https://t.me/{owner_username}")
         ]
     ]
     await m.reply_text(
